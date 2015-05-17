@@ -1,0 +1,55 @@
+﻿/* Style Sheet */
+/*Като изключим знаменцата се опитах да го докарам Pixel Perfect (Chrome),дайте съвет дали има начин с по - малко код  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Ebrima;
+    font-size:12px;
+}
+table, th , td {
+    border-collapse:collapse;
+    padding-left:7px;
+    height:25px;
+}
+th {
+    height:20px;
+    background-color:#4bbc00;
+    color:#fff;
+    font-weight:normal;
+    text-align:left;
+    vertical-align:2px;
+    border-bottom: 1.5px solid black;
+}
+tr:nth-child(2n) {
+    background-color:#f0eeda;
+}
+col {
+    border: 1px solid black;
+    border-top:0; 
+}
+#col1 {
+    width: 139px;
+    border-left:0;
+}
+#col2 {
+    width:109px;
+}
+#col3 {
+    width:126px;
+}
+#col4 {
+    width:83px;
+    border-right:0;
+}
+img {
+    width:21px;
+    height:16px;
+    padding-left:1px;
+    padding-right:6px;
+    vertical-align:middle;
+}
+tr td:first-child, th:first-child {
+    padding-left:6px;
+}
+
+

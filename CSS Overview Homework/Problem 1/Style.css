@@ -1,0 +1,45 @@
+﻿/*CSS Style*/
+body {
+    background-color:#606060;
+    margin: 5px;
+    padding: 0;
+}
+table {
+    background-color:transparent;
+    height:400px;
+}
+h1, td {
+    color: #a8a7b0;
+    font-family:Arial;
+}
+td {
+    font-size: 16pt;
+    padding-right:40px;
+    vertical-align:text-top;
+}
+td:nth-child(2n +1) {
+    font-style: italic;
+    color: #ffffff;  
+}
+.userDetails, a {
+    color:#fcf8ae;
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+#User:before {
+    content: url(GreenDot.gif);
+    padding-right: 5px;
+}
+#SuportStatus {
+    font-weight:bold;
+    text-shadow:3px 1px 4px #000000;
+    color:#ff0000;
+}
+#Status {
+    font-weight:bold;
+    color:#ff6a00;
+}
