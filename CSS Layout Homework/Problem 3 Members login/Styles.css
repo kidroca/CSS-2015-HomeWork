@@ -1,0 +1,103 @@
+/* Изглежда шрифтовете не мога да ги улуча като оригинала, също използвах друга
+картинка за бутона, поупражнявах се да си правя собствени бутончета */
+
+body, div, header, form, span, input, main, h1, article, p, a, blockquote  {
+    margin: 0;
+    padding: 0; 
+} 
+body {
+    font-family: Georgia;
+}
+
+#wrapper {
+    width: 661px;
+    border-radius: 10px;
+    background: #3B3B3B;
+    background-image: url(images/imgMon.png);     
+    background-position: 3px 6px;
+    background-repeat: no-repeat;
+    margin: 1% 0 0 3%;
+}
+
+header {
+    /* background: #3B3B3B; */ 
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.99) -70%, rgba(0, 0, 0, 0) 25%);      
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 25%);  
+    background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0) 25%);  
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.99) -30%, rgba(0, 0, 0, 0) 25%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.99) -75%, rgba(0, 0, 0, 0) 25%);
+    border-radius: 10px 10px 0 0;
+    padding: 2% 0% 0% 10%;
+    height: 55px;
+}
+   header span {
+        color: #fff;
+        font-size: 19px;
+        font-weight: bold;  
+        vertical-align: middle;
+        display:inline-block;
+}
+   header span::before {
+        content: 
+    }
+
+main {
+    background: transparent;
+    color: #bbb;
+    padding-bottom: 1%;
+    margin: 3% 0 0 1%;
+}
+    h1 {
+        color: #FFE410;
+    
+        margin-left: 1%;
+        margin-bottom: 3%;
+        font-size: 1.8em;
+        font-weight: normal;
+}
+    article {
+        width: 600px;
+        margin-left: 1%;
+    
+        font-size: 13px;
+        font-family: Verdana;
+        line-height: 18px;
+}
+
+
+article span {
+    color: #fff;
+}
+
+article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+article a:hover {
+    background-color: #fff;
+}
+
+header input {
+    margin: 0 1.5%;
+    width: 24%;
+    height: 16px;
+    padding: 0 0 0 2%;
+    vertical-align: text-top;
+}
+
+header input[type="button"] {
+    width: 10%;
+    height: 30px;
+    padding: 0;
+    border-radius: 12px;
+    margin-left: 1%;
+    background-image: url(images/btn1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 62px;
+}
+
+header form {
+    padding: 7px 0px 0px 8px;
+}

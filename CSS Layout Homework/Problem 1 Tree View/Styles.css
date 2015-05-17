@@ -1,0 +1,22 @@
+/*Super Style Sheet CSS */
+
+ul {
+list-style: none;
+}
+.nested {
+    position: absolute;
+    left: -9999px; /* Може и с "display: none" ама така е някак си по - хитро ... уж */
+    color:#777;
+    width:100px;
+}
+.top > li:hover span {
+    text-decoration:underline;    
+}
+.top > li:hover .nested {
+    position:relative;
+    left: -15px;
+}
+
+ul.top > li {
+    width: 63px;
+}

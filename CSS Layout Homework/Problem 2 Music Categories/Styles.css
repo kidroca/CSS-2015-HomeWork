@@ -1,0 +1,63 @@
+body, section, div, button, p, h2 {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color:#29b8e5;
+}
+section {
+    width:580px;
+    padding:1%;
+    margin:1%;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:10px;
+   /*Gradient*/
+   background: #29b8e5; /* Old browsers */
+   background: linear-gradient(to right, #b3dced 0%,#29b8e5 50%,#bce0ee 100%); /* W3C */
+}
+h2 {
+    margin-left: 3%;
+}
+div {
+    position: relative;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    width: 540px;
+    border: 1px solid #888; 
+    background-color: rgba(112,100,224, 0.4)
+}
+img {
+    float:left;
+    margin: 2%;
+}
+p {
+    width: 95%;
+    margin-top: 2%
+}
+button {
+    bottom: 10px;
+    width: 12%;
+    height: 25px;
+    border-radius: 5px;
+    border:1px solid #aaa;
+    background-image:url(images/Button.png);
+    background-position: center;
+    background-size:80px;
+    background-repeat: no-repeat;
+}
+div button:first-of-type {
+    position: absolute;
+    right: 17%;
+}
+div button:last-of-type {
+    position: absolute;
+    right: 5%;
+    width: 11%;
+}
+button:active {
+    bottom: 9px; /* Това кара бутоните да се движват  */
+}
+
